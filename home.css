@@ -1,0 +1,153 @@
+body 
+    {
+        font-family: Garamond, serif;
+        line-height: 1.6;
+        color: #333;
+        background-image: url('Images/logo.jpg'); /* Replace 'your-background-image.jpg' with your image file */
+        background-size: cover;
+        background-blur: 3px; /* Adjust the blur level */
+        background-position: center;
+        background-attachment: fixed; /* Fixed background image */
+    }
+
+header 
+    {
+        background-color: rgba(52, 58, 64, 0.8); /* Transparent  background color with alpha */
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0;
+        font-family: 'Brush Script MT', cursive;
+    }
+
+header h1
+{
+    font-size: 5.25em;
+}
+
+header h2
+{
+    font-size: 3.0em;
+}
+
+.navbar {
+    font-size: 1.2em; /* Adjust the value as needed */
+}
+
+.navbar-brand {
+    font-size: 1.5em; /* Adjust the value as needed */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2em; /* Adjust the value as needed */
+}
+
+
+nav 
+    {
+        background-color: rgba(52, 58, 64, 0.8); /* Transparent background color with alpha */
+    }
+
+nav a 
+    {
+        color: #fff;
+    }
+
+main 
+    {
+        margin-top: 2rem;
+    }
+
+article img,
+aside img 
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
+/* Adjust the image size */
+article img {
+    max-width: 100%; /* Make the image responsive within its container */
+    height: auto;
+}
+
+/* Increase the font size of the paragraph */
+article p {
+    font-size: 1.35em; /* Adjust the value as needed */
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Increase the font size of the navigation links */
+aside #nav_menu2 ul li a {
+    font-size: 1.35em; /* Adjust the value as needed */
+}
+
+article,
+aside 
+    {
+        background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+aside h2
+{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 4.5em;
+}
+
+article h2
+{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 4.5em;
+}
+
+
+footer {
+            background-color: rgba(52, 58, 64, 0.8); /* Transparent background color */
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+.article-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.article-content img {
+    max-width: 50%; /* Adjust the value as needed */
+    margin-right: 20px; /* Adjust the spacing between the image and text */
+}
+
+.card {
+        width: 18rem;
+    }
+
+    .card img {
+        height: 200px; /* Set the desired height for the images */
+        object-fit: cover;
+    }
+
+    .card-title {
+         font-weight: bold;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 4.5em;
+    }
+
+    .card-text {
+        font-size: 1.2em; /* Set the desired font size for the card text */
+    }
+
+    .btn {
+        font-size: 1.2em; /* Set the desired font size for the button */
+    }
